@@ -1,5 +1,10 @@
-controllers:
-    resource: ../../src/Controller/
+api-controllers:
+    resource: ../../src/Api/Controller/
+    type: annotation
+    prefix: /api/v1
+
+core-controllers:
+    resource: ../../src/Core/Controller/
     type: annotation
 
 kernel:
