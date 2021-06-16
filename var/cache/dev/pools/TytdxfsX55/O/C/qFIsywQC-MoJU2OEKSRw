@@ -1,0 +1,30 @@
+<?php //App_Api_Pizzas_Dto_PizzaUpdateRequestDto
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Api\\Pizzas\\Dto\\PizzaUpdateRequestDto',
+                'pizzaName',
+                'price',
+                'status',
+            ],
+            'attributesMetadata' => [
+                [
+                    'pizzaName' => $o[1],
+                    'price' => $o[2],
+                    'status' => $o[3],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

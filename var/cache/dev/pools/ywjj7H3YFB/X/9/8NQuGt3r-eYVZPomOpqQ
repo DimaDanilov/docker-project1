@@ -1,0 +1,19 @@
+<?php //%255BApp%255CApi%255CPizzas%255CController%255CPizzaController%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['FOS\\RestBundle\\Controller\\Annotations\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\Route')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/pizzas',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];
